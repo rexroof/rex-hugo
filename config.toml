@@ -1,0 +1,67 @@
+baseURL = "http://rexroof.com"
+title = "rexroof"
+copyright = "rex roof, this year"
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 5
+
+preserveTaxonomyNames = true
+
+[params]
+  description = "food, bikes, unix"
+  dateFormat = "2006, Jan 2"
+  copyrightOwner = "RexARoof"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+  hideSocialMenu = false
+  showReadTime = true
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "•"
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[social]
+  facebook = ""
+
+[author]
+  name = "Minimo"
+
+[author.social]
+  #codepen = "MunifTanjim"
+  github = "rexroof"
+  instagram = "rexroof"
+  twitter = "rexroof"
+
+[permalinks]
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "main"
+  weight = -70
+  identifier = "main"
+  url = "///"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
